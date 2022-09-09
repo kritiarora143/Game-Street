@@ -1,0 +1,85 @@
+/* div.imgs{
+    display: flex;
+} */
+ body{
+    /* background-image: url("darkPattern.jpg"); 
+    
+     background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  */
+    background-color: black;
+
+} 
+
+div.logo{
+    text-align: center;
+}
+
+img.logo{
+    margin-top: -50px;
+    width: 350px;
+    margin-bottom: -50px;
+}
+
+img.kidszone{
+    width: 300px;
+    
+}
+
+/* div.kidszone{
+    text-align: center;
+    opacity: 0.2;
+}
+
+img.kidszone{
+    width: 100%;
+    height: 100%;
+} */
+
+div.game1{
+    text-align: center;
+    color: black;
+    margin: 25px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 25px;
+    width: 50%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+div.game1:hover{
+    width: 55%;
+}
+
+div.games{
+    display: flex;
+}
+
+img.onoff{
+    width: 100%;
+}
+
+h1.onoff{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover{
+    background: gray;
+    color: black;
+    width: 110px;
+    height: 50px;
+
+}
+
